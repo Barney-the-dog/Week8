@@ -1,0 +1,56 @@
+.features__title {
+font-family: 'Intro ';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 120%;
+margin-top: 100px;
+}
+
+.features {
+width: 440px;
+}
+
+main {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+margin: 100px;
+
+}
+
+.features__rectangle {
+width: 365px;
+height: 233px;
+left: 127px;
+top: 330px;
+background: #EC615B;
+}
+
+.pic {
+position: absolute;
+top: 300px;
+width: 303px;
+height: 278px;
+}
+
+.nav__cart {
+background: #5222D0;
+border-radius: 100px;
+padding: 10px;
+Width: 115px;
+height: 38px;
+
+}
+
+nav {
+display: inline-flex; 
+justify-content: space-between;
+width: 90vw;
+height: 7vh;
+margin: 10px;
+}
+
+h1 {
+margin-left: 50px;
+}
